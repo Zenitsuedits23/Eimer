@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futboleros</title>
+
+    <style>
+
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contenedor-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contenedor-menu h1{
+            margin-left: 10px;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+        }
+
+        header{
+            background: url(fondo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 60vh;
+        }
+
+        .contenedor h2{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .contenedor-productos{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            text-align: center;
+        }
+
+        .productos{
+            width: 60%;
+            margin: auto;
+        }
+
+        .productos img{
+            height: 160px;
+            width: 164px;
+        }
+
+        footer{
+            margin-top: 20px;
+            background: #000;
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="contenedor-menu">
+            <h1>Futboleros</h1>
+            <div class="menu">
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="contactos.html">Contactanos</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="contenedor">
+                <h2>Productos</h2>
+                <div class="contenedor-productos">
+                    <section>
+                        <div class="productos">
+                            <h3>BALÓN DE FÚTBOL PROFESIONAL GOLTY TRADITIONAL</h3>
+                            <img src="Futbol.png">
+                            <p>COP 135.000</p>
+                        </div>
+                    </section>
+                   
+                    <section>
+                        <div class="productos">
+                            <h3>Tacos Futbol</h3>
+                            <img src="Fifa.jpeg">
+                            <p>COP 74.000</p>
+                        </div>
+                    </section>
+                   
+                    <section>
+                        <div class="productos">
+                            <h3>Conos Deportivo Entrenamiento Fútbol Baloncesto Accesorios</h3>
+                            <img src="Conos.png">
+                            <p>COP 152.900</p>
+                        </div>
+                    </section>
+                   
+                    <section>
+                        <div class="productos">
+                            <h3>Camiseta Barcelona Exterior 2022/2023</h3>
+                            <img src="camiseta.png">
+                            <p>COP 62.000</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            @Futboleros
+        </p>
+    </footer>
+</body>
+</html>
